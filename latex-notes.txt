@@ -1,0 +1,22 @@
+\text{ }\\
+nT = \text{number of "1" samples in population}\\
+nF = \text{number of "0" samples in population}\\
+tpr = \text{precent of } nT \text{ that the classifier correctly classified}\\
+fpr = \text{precent of } nF \text{ that the classifier correctly classified}\\
+\underline{\text{Confusion matrix values}}\\
+\text{True positives} = nT * tpr
+\text{True negatives} = nF * fpr
+\text{False positives} = nF * (1 - tpr)
+\text{False negatives} = nF * (1 - fpr)
+
+
+\text{ }\\
+$nT = 6$\\
+$nF = 6$\\
+$tpr = \frac{2}{3}$\\
+$fpr = \frac{1}{6}$\\\\
+\underline{Confusion matrix values}\\
+$\text{True positives} = 6 * \frac{2}{3} = 4$\\
+$\text{True negatives} = 6 * \frac{1}{6} = 2$\\
+$\text{False positives} = 6 * (1 - \frac{2}{3}) = 1$\\
+$\text{False negatives} = 6 * (1 - \frac{1}{6}) = 5$
